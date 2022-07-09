@@ -1,13 +1,21 @@
 import React, {
   FC,
+  useRef,
   PropsWithChildren,
   HTMLAttributes,
-  useRef,
   MouseEvent
 } from 'react';
 
 export interface IHoverDelayProps extends HTMLAttributes<HTMLDivElement> {
+  /**
+   * @description Delay in milliseconds before the hover event is triggered
+   * @required
+   */
   delay: number;
+  /**
+   * @description Callback function to be called when the hover event is triggered
+   * @required
+   */
   onMouseHover: (e: MouseEvent) => void;
 }
 
