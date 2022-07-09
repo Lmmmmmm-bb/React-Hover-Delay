@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "react-hover-delay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "packageManager": "pnpm@7.5.0",
   "author": "_lmmmmmm",
