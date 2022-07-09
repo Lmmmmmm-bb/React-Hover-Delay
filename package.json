@@ -2,16 +2,32 @@
   "private": true,
   "name": "react-hover-delay",
   "version": "1.0.0",
+  "license": "MIT",
+  "packageManager": "pnpm@7.5.0",
+  "author": "_lmmmmmm",
+  "keywords": [
+    "react",
+    "react-components",
+    "react-hover-delay"
+  ],
+  "repository": {
+    "url": "https://github.com/Lmmmmmm-bb/React-Hover-Delay",
+    "type": "git+https://github.com/Lmmmmmm-bb/React-Hover-Delay.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lmmmmmm-bb/React-Hover-Delay/issues",
+    "email": "lmmmmmm12138@gmail.com"
+  },
   "scripts": {
-    "start": "dumi dev",
+    "dev": "dumi dev",
     "docs:build": "dumi build",
     "docs:deploy": "gh-pages -d docs-dist",
     "build": "father build",
-    "deploy": "npm run docs:build && npm run docs:deploy",
+    "deploy": "pnpm docs:build && pnpm docs:deploy",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
     "test": "umi-test",
     "test:coverage": "umi-test --coverage",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "pnpm build"
   },
   "files": [
     "dist"
@@ -29,9 +45,6 @@
       "prettier --parser=typescript --write"
     ]
   },
-  "dependencies": {
-    "react": "^18.0.0"
-  },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.15.1",
     "@testing-library/react": "^13.0.0",
@@ -45,6 +58,7 @@
     "gh-pages": "^3.0.0",
     "lint-staged": "^10.0.7",
     "prettier": "^2.2.1",
+    "react": "^18.2.0",
     "yorkie": "^2.0.0"
   }
 }
