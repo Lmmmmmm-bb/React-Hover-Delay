@@ -1,1 +1,5 @@
-## Hello react-hover-delay!
+---
+title: react-hover-delay
+---
+
+<embed src="../README.md" />
